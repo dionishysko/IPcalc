@@ -1,0 +1,98 @@
+/*============================================================
+	For Small Desktop
+==============================================================*/
+
+@media (min-width: 700px) and (max-width: 1090px) {
+    .counters-item:before {
+        display: none;
+    }
+
+}
+
+/*============================================================
+	Tablet (Portrait) Design for a width of 768px
+==============================================================*/
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+    .counters-item:before {
+        display: none;
+    }
+	/* parallax section */
+    .parallax-section {
+        background-position: center top !important;
+    }
+
+	/* navigation */
+    .navbar-inverse .navbar-nav li a {
+        padding: 20px 10px;
+    }
+
+
+}
+
+
+/*============================================================
+	Mobile (Portrait) Design for a width of 320px
+==============================================================*/
+
+@media only screen and (max-width: 767px) {
+
+    .counters-item:before {
+        display: none;
+    }
+    
+
+
+
+	/* h1 font size home slider */
+    h1 {
+        font-size: 30px;
+    }
+
+    .wrap-about {
+        margin: 0 auto 80px;
+        width: 85%;
+    }
+
+    .feature-desc a {
+        margin: 5px 5px 5px 0;
+    }
+
+	/* footer */
+    .social-icon ul li, .social-icon ul li:first-child {
+        margin: 15px;
+    }
+
+    .social-icon ul li a {
+        width: 50px;
+        height: 50px;
+    }
+
+    .social-icon ul li a i {
+        font-size: 24px;
+        line-height: 50px;
+    }
+
+    .blog-title h1 {
+        font-size: 28px;
+    }
+
+}
+
+
+
+/*============================================================
+	Mobile (Landscape) Design for a width of 480px
+==============================================================*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .title h2 {
+        font-size:  32px;
+    }
+    .counter .counter-title h2 {
+        font-size: 35px;
+    }
+
+}

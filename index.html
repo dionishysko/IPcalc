@@ -1,41 +1,200 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Detyre Rrjeta Evald Nexhipi</title>
-        <style>
-            body{
-                background-color:rgb(119, 111, 112);
-                float:center;
-                text-align:center;
-                margin-left:27%;
-            }
-            #td1{
-                width:200px;
-                height:200px;
-                background-color:rgb(43, 77, 226);
-                font-size:20px;
-            }
-            #td2{
-                width:200px;
-                height:200px;
-                background-color:rgb(102, 0, 51);
-                font-size:20px;
-            }
-            #td3{
-                width:200px;
-                height:200px;
-                background-color:#4CAF50;
-                font-size:20px;
-            }
-        </style>
-    </head>
-    <body>
-        <table>
-            <tr>
-                <td id="td1"><a href="klasastandarde.html" target="_blank" style="text-decoration:none;color:white;">Klasa Standarde</a></td>
-                <td id="td2"><a href="krahasoip.html" target="_blank" style="text-decoration:none;color:white;">Krahaso IP-te</a></td>
-                <td id="td3"><a href="subnetsgen.html" target="_blank" style="text-decoration:none;color:white;">Gjenerimi i Subneteve</a></td>
-            </tr>
-        </table>
-    </body>
+<html lang="sq">
+
+<head>
+  <meta name="viewport" content="with=device-width, initial-scale=1.0">
+  <title>Rrjeta Kompjuterike | Dionis Hysko</title>
+
+  <!-- Mobile Specific Meta
+  ================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="images/logo.png" />
+
+  <!-- CSS
+  ================================================== -->
+  <!-- Themefisher Icon font -->
+  <link rel="stylesheet" href="plugins/themefisher-font/style.css">
+  <!-- bootstrap.min css -->
+  <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+  <!-- Lightbox.min css -->
+  <link rel="stylesheet" href="plugins/lightbox2/dist/css/lightbox.min.css">
+  <!-- animation css -->
+  <link rel="stylesheet" href="plugins/animate/animate.css">
+  <!-- Slick Carousel -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito&family=Source+Serif+Pro:ital,wght@0,400;0,700;1,300&display=swap"
+    rel="stylesheet">
+
+</head>
+
+
+<body>
+  <header class="navigation fixed-top">
+    <div class="container">
+
+      <!-- main nav -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <!-- logo -->
+        <a class="navbar-brand logo" href="index.html">
+          <img class="logo-default" src="images/logo.png" alt="logo" />
+          <img class="logo-white" src="images/logoo.png" alt="logo" />
+        </a>
+        <!-- /logo -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+          aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navigation">
+          <div class="brand">
+            <div class="brand-name"> Fakulteti i shkencave të natyrës</div>
+          </div>
+          <ul class="navbar-nav ml-auto text-center">
+            <li class="nav-item ">
+              <a class="nav-link" href="klasastandarde.html">Standard</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="tipi.html">Subnet & Tipi</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- /main nav -->
+    </div>
+  </header>
+
+  <div class="hero-slider">
+    <div class="slider-item th-fullpage hero-area" style="background-image: url(images/thumb-1920-559128.jpg)">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h1 data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">Kalkulator
+            </h1>
+            <p data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".5">Ky kalkulator do të
+              na nevojitet për të llogaritur, krahasuar dhe diferencuar adresat IP. <br>
+              Gjithashtu do të paraqiten së bashku me cilësitë e tyre përkatëse.
+              <br>
+              <br>
+            </p>
+            <a data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".8" class="btn btn-main"
+              href="klasastandarde.html">Kalkulo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="service-2 section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <!-- section title -->
+          <div class="title text-center">
+            <h2>FUNKSIONET</h2>
+            <p> </p>
+            <div class="border"></div>
+          </div>
+          <!-- /section title -->
+        </div>
+
+        <div class="row text-center">
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="service-item1">
+              <i class="fas fa-code"></i>
+              <p></p>
+              <h4>Standard</h4>
+              <br>
+              <p1> Në këtë opsion të kalkulatorit, do të mund të gjeneroni: <br>
+                - Adresën tuaj IP <br>
+                - Network<br>
+                - Network subMask <br>
+                - Hosti i parë<br>
+                - Hosti i fundit<br>
+                - Broadcast
+              </p1>
+              <br>
+              <a href="klasastandarde.html" class="btn btn-main mt-20" style="text-align: center; margin: auto;
+              display: block; font-size: 15px;">Më tepër</a>
+            </div>
+
+          </div>
+ 
+
+     
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="service-item1">
+              <i class="fas fa-code"></i>
+              <p></p>
+              <h4>Gjenerimi i subNet & Tipi IP </h4>
+              <br>
+              <p1> Në këtë opsion të kalkulatorit, do të mund të gjeneroni: <br>
+                - Klasën e IP <br>
+                - Sasinë e network që përmban adresa IP <br>
+                - Sasinë e hosteve për Çdo network
+              </p1>
+              <br>
+              <br>
+              <br>
+              <br>
+              <a href="tipi.html" class="btn btn-main mt-20" style="text-align: center; margin: auto;
+              display: block;">Më tepër</a>
+            </div>
+
+          </div>
+        </div> 
+      </div> 
+  </section> 
+
+
+  <footer id="footer" class="bg-one">
+
+    <div class="footer-bottom">
+      <h5>Copyright 2022. All rights reserved.</h5>
+      <br>
+      <a href="#">Dionis Hysko | Kalkulator IP</a> 
+      <br>
+      <a href=""><i class="fab fa-github"></i></a>
+    </div>
+  </footer>
+
+
+
+  <script src="plugins/jquery/jquery.min.js"></script>
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+  <script src="plugins/google-map/gmap.js"></script>
+
+  <!-- Form Validation -->
+  <script src="plugins/form-validation/jquery.form.js"></script>
+  <script src="plugins/form-validation/jquery.validate.min.js"></script>
+
+  <!-- Bootstrap4 -->
+  <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+  <!-- Parallax -->
+  <script src="plugins/parallax/jquery.parallax-1.1.3.js"></script>
+  <!-- lightbox -->
+  <script src="plugins/lightbox2/dist/js/lightbox.min.js"></script>
+  <!-- Owl Carousel -->
+  <script src="plugins/slick/slick.min.js"></script>
+  <!-- filter -->
+  <script src="plugins/filterizr/jquery.filterizr.min.js"></script>
+  <!-- Smooth Scroll js -->
+  <script src="plugins/smooth-scroll/smooth-scroll.min.js"></script>
+
+  <!-- Custom js -->
+  <script src="js/script.js"></script>
+  <!--Icons -->
+  <script src="https://kit.fontawesome.com/dbb1130778.js" crossorigin="anonymous"></script>
+
+  <script src="js/kalkulator.js"></script>
+
+</body>
+
 </html>
